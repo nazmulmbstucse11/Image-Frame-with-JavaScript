@@ -1,0 +1,476 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+:root {
+    --colRepeat: 15;
+    --rowRepeat: 2;
+    --colEnd:  14;
+    --rowEnd: 5;
+
+    --imageWidth: 100px;
+    --imageHeight: 100px;
+  }
+
+.container {
+    position: relative;
+    display: grid; 
+    width: auto;
+    height: auto;
+    background-color: green;
+
+    grid-template-columns: repeat(var(--colRepeat), var(--imageWidth));
+    grid-template-rows: repeat(var(--rowRepeat), var(--imageHeight));
+}
+
+.space{
+    grid-row-start: 2;
+    grid-row-end : var(--rowEnd);
+
+    grid-column-start: 2;
+    grid-column-end: var(--colEnd);
+
+    background-color: black; 
+}
+
+#text{
+    width: auto;
+    height: auto;
+    text-align: center; 
+    font-size: 20px; 
+    color: aliceblue;
+    padding: 20px; 
+}
+
+#frame1{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: black;
+    z-index: 1;
+}
+
+#frame2{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: rebeccapurple;
+    z-index: 1;
+}
+
+#frame3{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: yellow;
+    z-index: 1;
+}
+
+#frame4{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: rosybrown;
+    z-index: 1;
+}
+
+#frame5{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: royalblue;
+    z-index: 1;
+}
+
+#frame6{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: saddlebrown;
+    z-index: 1;
+}
+
+#frame7{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: salmon;
+    z-index: 1;
+}
+
+#frame8{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: sandybrown;
+    z-index: 1;
+}
+
+#frame9{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: slateblue;
+    z-index: 1;
+}
+
+#frame10{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: slateblue;
+    z-index: 1;
+}
+
+#frame11{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: slategrey;
+    z-index: 1;
+}
+
+#frame12{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: blue;
+    z-index: 1;
+}
+
+#frame13{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: blueviolet;
+    z-index: 1;
+}
+
+#frame14{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: brown;
+    z-index: 1;
+}
+
+#frame15{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: navy;
+    z-index: 1;
+}
+
+#frame16{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: peru;
+    z-index: 1;
+}
+
+#frame17{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: purple;
+    z-index: 1;
+}
+
+#frame18{ 
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: chartreuse;
+    z-index: 1;
+}
+
+#frame19{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: chocolate;
+    z-index: 1;
+}
+
+#frame20{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: coral;
+    z-index: 1;
+}
+
+#frame21{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: cornflowerblue;
+    z-index: 1;
+}
+
+#frame22{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkmagenta;
+    z-index: 1;
+}
+
+#frame23{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkolivegreen;
+    z-index: 1;
+}
+
+#frame24{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkorange;
+    z-index: 1;
+}
+
+#frame25{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkslateblue;
+    z-index: 1;
+}
+
+#frame26{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: fuchsia;
+    z-index: 1;
+}
+
+#frame27{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: greenyellow;
+    z-index: 1;
+}
+
+#frame28{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: indigo;
+    z-index: 1;
+}
+
+#frame29{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: indianred;
+    z-index: 1;
+}
+
+#frame30{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: khaki;
+    z-index: 1;
+}
+
+#frame31{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: lightpink;
+    z-index: 1;
+}
+
+#frame32{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: magenta;
+}
+
+#frame33{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: maroon;
+    z-index: 1;
+}
+
+#frame34{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: midnightblue;
+    z-index: 1;
+}
+
+#frame35{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: mediumslateblue;
+    z-index: 1;
+}
+
+#frame36{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: olive;
+    z-index: 1;
+}
+
+#frame37{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: olivedrab;
+    z-index: 1;
+}
+
+#frame38{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: orangered;
+    z-index: 1;
+}
+
+#frame39{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: orchid;
+    z-index: 1;
+}
+
+#frame40{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: yellowgreen;
+    z-index: 1;
+} 
+
+.swapRight{
+    position: absolute;
+    animation: right-animate 1s linear;
+}
+
+@keyframes right-animate{
+    from {
+      left: calc(var(--imageWidth) * -1);
+    }
+
+    to{
+     left: 0;
+    }
+}
+
+.swapLeft{
+    position: absolute;
+    animation: left-animate 1s linear;
+}
+
+@keyframes left-animate{
+    from {
+      right: calc(var(--imageWidth) * -1);
+    }
+
+    to{
+     right: 0;
+    }
+}
+
+.swapDown{
+    position: absolute;
+    animation: down-animate 1s linear;
+}
+
+@keyframes down-animate{
+    from {
+      top: calc(var(--imageHeight) * -1);
+    }
+
+    to{
+     top: 0;
+    }
+}
+
+.swapUp{
+    position: absolute;
+    animation: up-animate 1s linear;
+}
+
+@keyframes up-animate{
+    from {
+      bottom: calc(var(--imageHeight) * -1);
+    }
+
+    to{
+     bottom: 0;
+    }
+}
+
+.container h1{
+    position: absolute;
+    font-size: 15px;
+    z-index: -1;
+    color: red;
+}
