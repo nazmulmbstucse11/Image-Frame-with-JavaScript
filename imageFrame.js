@@ -21,8 +21,6 @@ function mainFunction() {
   var text_div = document.querySelector('#text');
   var height = text_div.offsetHeight;
 
-  //console.log(height);
-
   var tmp2 = Math.floor(height / 100);
 
   if (tmp2 != 0) {
