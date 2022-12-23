@@ -408,6 +408,544 @@ body{
     z-index: 1;
 } 
 
+#frame41{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: black;
+    z-index: 1;
+}
+
+#frame42{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: rebeccapurple;
+    z-index: 1;
+}
+
+#frame43{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: yellow;
+    z-index: 1;
+}
+
+#frame44{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: rosybrown;
+    z-index: 1;
+}
+
+#frame45{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: royalblue;
+    z-index: 1;
+}
+
+#frame46{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: saddlebrown;
+    z-index: 1;
+}
+
+#frame47{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: salmon;
+    z-index: 1;
+}
+
+#frame48{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: sandybrown;
+    z-index: 1;
+}
+
+#frame49{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: slateblue;
+    z-index: 1;
+}
+
+#frame50{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: slateblue;
+    z-index: 1;
+}
+
+#frame51{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: slategrey;
+    z-index: 1;
+}
+
+#frame52{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: blue;
+    z-index: 1;
+}
+
+#frame53{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: blueviolet;
+    z-index: 1;
+}
+
+#frame54{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: brown;
+    z-index: 1;
+}
+
+#frame55{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: navy;
+    z-index: 1;
+}
+
+#frame56{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: peru;
+    z-index: 1;
+}
+
+#frame57{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: purple;
+    z-index: 1;
+}
+
+#frame58{ 
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: chartreuse;
+    z-index: 1;
+}
+
+#frame59{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: chocolate;
+    z-index: 1;
+}
+
+#frame60{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: coral;
+    z-index: 1;
+}
+
+#frame61{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: cornflowerblue;
+    z-index: 1;
+}
+
+#frame62{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkmagenta;
+    z-index: 1;
+}
+
+#frame63{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkolivegreen;
+    z-index: 1;
+}
+
+#frame64{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkorange;
+    z-index: 1;
+}
+
+#frame65{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkslateblue;
+    z-index: 1;
+}
+
+#frame66{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: fuchsia;
+    z-index: 1;
+}
+
+#frame67{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: greenyellow;
+    z-index: 1;
+}
+
+#frame68{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: indigo;
+    z-index: 1;
+}
+
+#frame69{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: indianred;
+    z-index: 1;
+}
+
+#frame70{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: khaki;
+    z-index: 1;
+}
+
+#frame71{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: lightpink;
+    z-index: 1;
+}
+
+#frame72{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: magenta;
+}
+
+#frame73{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: maroon;
+    z-index: 1;
+}
+
+#frame74{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: midnightblue;
+    z-index: 1;
+}
+
+#frame75{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: mediumslateblue;
+    z-index: 1;
+}
+
+#frame76{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: olive;
+    z-index: 1;
+}
+
+#frame77{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: olivedrab;
+    z-index: 1;
+}
+
+#frame78{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: orangered;
+    z-index: 1;
+}
+
+#frame79{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: orchid;
+    z-index: 1;
+}
+
+#frame80{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: yellowgreen;
+    z-index: 1;
+}
+
+#frame81{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: cornflowerblue;
+    z-index: 1;
+}
+
+#frame82{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkmagenta;
+    z-index: 1;
+}
+
+#frame83{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkolivegreen;
+    z-index: 1;
+}
+
+#frame84{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkorange;
+    z-index: 1;
+}
+
+#frame85{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: darkslateblue;
+    z-index: 1;
+}
+
+#frame86{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: fuchsia;
+    z-index: 1;
+}
+
+#frame87{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: greenyellow;
+    z-index: 1;
+}
+
+#frame88{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: indigo;
+    z-index: 1;
+}
+
+#frame89{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: indianred;
+    z-index: 1;
+}
+
+#frame90{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: khaki;
+    z-index: 1;
+}
+
+#frame91{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: lightpink;
+    z-index: 1;
+}
+
+#frame92{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: magenta;
+}
+
+#frame93{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: maroon;
+    z-index: 1;
+}
+
+#frame94{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: midnightblue;
+    z-index: 1;
+}
+
+#frame95{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: mediumslateblue;
+    z-index: 1;
+}
+
+#frame96{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: olive;
+    z-index: 1;
+}
+
+#frame97{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: olivedrab;
+    z-index: 1;
+}
+
+#frame98{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: orangered;
+    z-index: 1;
+}
+
+#frame99{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: orchid;
+    z-index: 1;
+}
+
+#frame100{
+    position: relative;
+    display: none;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    background-color: yellowgreen;
+    z-index: 1;
+}
+
 .swapRight{
     position: absolute;
     animation: right-animate 1s linear;

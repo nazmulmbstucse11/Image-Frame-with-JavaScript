@@ -64,12 +64,22 @@ function loadImage() {
     , "imageFolder/image-21.jpg", "imageFolder/image-22.jpg", "imageFolder/image-23.jfif", "imageFolder/image-24.jfif", "imageFolder/image-25.jfif"
     , "imageFolder/image-26.jpg", "imageFolder/image-27.jpg", "imageFolder/image-28.jpg", "imageFolder/image-29.jpg", "imageFolder/image-30.jpg"
     , "imageFolder/image-31.jpg", "imageFolder/image-32.jpg", "imageFolder/image-33.jfif", "imageFolder/image-34.jpg", "imageFolder/image-35.jfif"
-    , "imageFolder/image-36.jfif", "imageFolder/image-37.jpg", "imageFolder/image-38.jfif", "imageFolder/image-39.jpg", "imageFolder/image-40.jpg");
+    , "imageFolder/image-36.jfif", "imageFolder/image-37.jpg", "imageFolder/image-38.jfif", "imageFolder/image-39.jpg", "imageFolder/image-40.jpg"
+    , "imageFolder/image-41.jfif", "imageFolder/image-42.jfif", "imageFolder/image-43.jpg", "imageFolder/image-44.jpg", "imageFolder/image-45.jfif"
+    , "imageFolder/image-46.jfif", "imageFolder/image-47.png", "imageFolder/image-48.jfif", "imageFolder/image-49.jfif", "imageFolder/image-50.jfif"
+    , "imageFolder/image-51.jpg", "imageFolder/image-52.jfif", "imageFolder/image-53.jpg", "imageFolder/image-54.jpg", "imageFolder/image-55.jfif"
+    , "imageFolder/image-56.jfif", "imageFolder/image-57.jfif", "imageFolder/image-58.jfif", "imageFolder/image-59.jfif", "imageFolder/image-60.jpg"
+    , "imageFolder/image-61.jpg", "imageFolder/image-62.jpg", "imageFolder/image-63.jfif", "imageFolder/image-64.jfif", "imageFolder/image-65.jfif"
+    , "imageFolder/image-66.jpg", "imageFolder/image-67.jpg", "imageFolder/image-68.jpg", "imageFolder/image-69.jpg", "imageFolder/image-70.jpg"
+    , "imageFolder/image-71.jpg", "imageFolder/image-72.jpg", "imageFolder/image-73.jfif", "imageFolder/image-74.jpg", "imageFolder/image-75.jfif"
+    , "imageFolder/image-76.jfif", "imageFolder/image-77.jpg", "imageFolder/image-78.jfif", "imageFolder/image-79.jpg", "imageFolder/image-80.jpg"
+    , "imageFolder/image-81.jpg", "imageFolder/image-82.jpg", "imageFolder/image-83.jfif", "imageFolder/image-84.jfif", "imageFolder/image-85.jfif"
+    , "imageFolder/image-86.jpg", "imageFolder/image-87.jpg", "imageFolder/image-88.jpg", "imageFolder/image-89.jpg", "imageFolder/image-90.jpg"
+    , "imageFolder/image-91.jpg", "imageFolder/image-92.jpg", "imageFolder/image-93.jfif", "imageFolder/image-94.jpg", "imageFolder/image-95.jfif"
+    , "imageFolder/image-96.jfif", "imageFolder/image-97.jpg", "imageFolder/image-98.jfif", "imageFolder/image-99.jpg", "imageFolder/image-100.jpg");
 
 
-  var i;
-
-  for (i = 1; i <= 40; i++) {
+  for (var i = 1; i <= 100; i++) {
     var elem = document.getElementById("frame" + i);
 
     if (elem.lastChild != null && elem.style.display == "block") {
@@ -78,7 +88,7 @@ function loadImage() {
     }
   }
 
-  for (i = 1; i <= image_number; i++) {
+  for (var i = 1; i <= image_number; i++) {
 
     var img_elem = document.createElement("img");
     img_elem.src = imageArray[i - 1];
@@ -92,7 +102,7 @@ function loadImage() {
     elem.appendChild(img_elem);
   }
 
-  for (i = image_number + 1; i <= 40; i++) {
+  for (var i = image_number + 1; i <= 100; i++) {
     var elem = document.getElementById("frame" + i);
 
     if (elem.lastChild != null && elem.style.display == "block") {
